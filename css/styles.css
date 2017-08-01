@@ -1,0 +1,117 @@
+body {
+	background-color: white;
+}
+#header {
+	font-family: 'Raleway',sans-serif;
+	font-size: 52px; font-weight: 800; line-height: 72px;
+	text-align: center;
+	border: 4px double black;
+	font-family: 'Trocchi';
+	color: black;
+}
+
+/*div{
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+#ya {
+	margin-left: 300px;
+}
+div#firstId{
+	background: url('https://www.asphaltgreen.org/images/uploads/posts/David_Rodriguez_300x325.jpg');
+		background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+	margin-left: 100px;
+	margin-top: 0px;
+border: 3px double DimGray;
+	height: 250px;
+	width: 250px;
+	font-size: 70px;
+	color: DimGray;
+	position: fixed;
+
+}
+div#secondId{
+	background: url('http://cdnak1.psbin.com/img/mw=150/mh=227/cr=n/d=vjsfs/ttao642z2x5s0ljx.jpg');
+		background-repeat: no-repeat;
+	background-size: cover;
+display: inline-block;
+margin-top: 0px;
+margin-left: 400px;
+border: 3px double DimGray;
+	height: 250px;
+	width: 250px;
+	font-size: 70px;
+	color: DimGray;
+	position: fixed;
+}
+div#thirdId{
+	background: url('https://www.asphaltgreen.org/images/uploads/posts/Ian_Cervone.jpg');
+		background-repeat: no-repeat;
+	background-size: cover;
+display: inline-block;
+margin-left: 100px;
+margin-top: 300px;
+border: 3px double DimGray;
+	height: 250px;
+	width: 250px;
+	font-size: 70px;
+	color: DimGray;
+	position: fixed;
+}
+
+div#fourthId{
+	background: url('https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/3/000/114/290/3df0d52.jpg');	
+		background-repeat: no-repeat;
+	background-size: cover;
+display: inline-block;
+margin-left: 400px;
+margin-top: 300px;
+border: 3px double DimGray;
+	height: 250px;
+	width: 250px;
+	font-size: 70px;
+	color: DimGray;
+	position: fixed;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
